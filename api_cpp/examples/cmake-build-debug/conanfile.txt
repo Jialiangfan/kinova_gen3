@@ -1,0 +1,9 @@
+[generators]
+cmake
+
+[requires]
+kortex_api_cpp/2.6.0-r.3@kortex/stable
+
+[options]
+
+[imports]

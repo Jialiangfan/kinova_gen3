@@ -1,0 +1,86 @@
+/home/fjl2401/clion-2022.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/fjl2401/clion-2022.3/bin/ninja/linux/ninja -G Ninja -S /home/fjl2401/kinova_gen3/kortex/api_cpp/examples -B /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug
+-- Conan: checking conan executable in path
+-- Conan: Found program /usr/local/bin/conan
+-- Conan: Version found Conan version 1.59.0
+
+-- Conan: Adding kinova_public remote repositoy (https://artifactory.kinovaapps.com/artifactory/api/conan/conan-public)
+-- Conan: Automatic detection of conan settings from cmake
+-- Conan: Settings= -s;build_type=Debug;-s;compiler=gcc;-s;compiler.version=9;-s;compiler.libcxx=libstdc++11;-s;kortex_api_cpp:compiler=gcc;-s;kortex_api_cpp:compiler.version=5;-s;compiler.libcxx=libstdc++11
+-- Conan executing: conan install . -s build_type=Debug -s compiler=gcc -s compiler.version=9 -s compiler.libcxx=libstdc++11 -s kortex_api_cpp:compiler=gcc -s kortex_api_cpp:compiler.version=5 -s compiler.libcxx=libstdc++11 -g=cmake --update
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Debug
+compiler=gcc
+compiler.libcxx=libstdc++11
+compiler.version=9
+os=Linux
+os_build=Linux
+kortex_api_cpp:compiler=gcc
+kortex_api_cpp:compiler.version=5
+[options]
+[build_requires]
+[env]
+
+conanfile.txt: Installing package
+Requirements
+    kortex_api_cpp/2.6.0-r.3@kortex/stable from 'kinova_public' - Cache
+Packages
+    kortex_api_cpp/2.6.0-r.3@kortex/stable:9755f981ac44041fa0948f05e49abfa3d3346131 - Cache
+
+Installing (downloading, building) binaries...
+kortex_api_cpp/2.6.0-r.3@kortex/stable: Already installed!
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Aggregating env generators
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+-- Conan: Loading conanbuildinfo.cmake
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug
+-- Conan: Compiler GCC>=5, checking major version 9
+-- Conan: Checking correct version: 9
+creating TARGET_EXE_NAME: '000-Getting_started_01-api_creation'
+creating TARGET_EXE_NAME: '000-Getting_started_02-protobuf_object_manipulation'
+creating TARGET_EXE_NAME: '000-Getting_started_03-api_mechanism'
+creating TARGET_EXE_NAME: '000-Getting_started_04-error_management'
+creating TARGET_EXE_NAME: '000-Getting_started_05-notification'
+creating TARGET_EXE_NAME: '100-Overview_01-devices_routing'
+creating TARGET_EXE_NAME: '100-Overview_02-protection_zones_configuration'
+creating TARGET_EXE_NAME: '102-High_level_movement_01-move_angular_and_cartesian'
+creating TARGET_EXE_NAME: '102-High_level_movement_02-sequence'
+creating TARGET_EXE_NAME: '102-High_level_movement_03-twist_command'
+creating TARGET_EXE_NAME: '102-High_level_movement_04-send_joint_speeds'
+creating TARGET_EXE_NAME: '102-High_level_movement_05-circle_example'
+creating TARGET_EXE_NAME: '102-High_level_movement_06-print_actuator'
+creating TARGET_EXE_NAME: '102-High_level_movement_07-circle_position'
+creating TARGET_EXE_NAME: '102-High_level_movement_08-print_four_actuators'
+creating TARGET_EXE_NAME: '103-Gen3_uart_bridge_01-uart_bridge'
+creating TARGET_EXE_NAME: '103-Gen3_uart_bridge_02-test_circle'
+creating TARGET_EXE_NAME: '103-Gen3_uart_bridge_03-test_four_circle'
+creating TARGET_EXE_NAME: '103-Gen3_uart_bridge_04-test_four_sequential_arms_operation'
+creating TARGET_EXE_NAME: '103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2'
+creating TARGET_EXE_NAME: '104-Gen3_gpio_bridge_01-gpio_bridge'
+creating TARGET_EXE_NAME: '105-Gen3_i2c_bridge_01-i2c_bridge'
+creating TARGET_EXE_NAME: '106-Gripper_command_01-gripper_command'
+creating TARGET_EXE_NAME: '107-Gripper_low_level_command_01-gripper_low_level_command'
+creating TARGET_EXE_NAME: '108-Gen3_torque_control_01-torque_control_cyclic'
+creating TARGET_EXE_NAME: '109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration'
+creating TARGET_EXE_NAME: '110-Waypoints_01-send_angular_wapoint_trajectory'
+creating TARGET_EXE_NAME: '110-Waypoints_02-send_cartesian_waypoint_trajectory'
+creating TARGET_EXE_NAME: '111-Kinematics_01-compute-kinematics'
+creating TARGET_EXE_NAME: '200-Actuator_low_level_control_01-move_to_initial_position'
+creating TARGET_EXE_NAME: '200-Actuator_low_level_control_02-actuator_low_level_velocity_control'
+creating TARGET_EXE_NAME: '200-Actuator_low_level_control_02-test1'
+creating TARGET_EXE_NAME: '200-Actuator_low_level_control_03-test2'
+creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_01_vision_intrinsics'
+creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_02_vision_extrinsics'
+creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_03_vision_sensor_focus_action'
+creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_04_vision_sensor_options'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug

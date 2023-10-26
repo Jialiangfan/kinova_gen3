@@ -22,6 +22,12 @@ struct ExampleArgs
     std::string   password;
 };
 
+
+struct Taskconfig
+{
+    std::string   joint_velocity_file;
+};
+
 ExampleArgs ParseExampleArguments(int argc, char *argv[]);
 
 #endif //KORTEX_EXAMPLES_UTILITIES_H

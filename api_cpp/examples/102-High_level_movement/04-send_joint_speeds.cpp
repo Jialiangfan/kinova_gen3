@@ -20,8 +20,10 @@
 #include <Common.pb.h>
 
 #include "utilities.h"
+#include <cmath>
 
 namespace k_api = Kinova::Api;
+
 
 #define PORT 10000
 

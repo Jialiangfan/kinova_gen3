@@ -193,6 +193,8 @@ bool example_cartesian_action_movement(k_api::Base::BaseClient* base, k_api::Bas
 
     auto constrained_pose = action.mutable_reach_pose();
     auto pose = constrained_pose->mutable_target_pose();
+
+    
     pose->set_x(feedback.base().tool_pose_x());                // x (meters)
     pose->set_y(feedback.base().tool_pose_y() - 0.1);          // y (meters)
     pose->set_z(feedback.base().tool_pose_z() - 0.2);          // z (meters)
@@ -200,6 +202,7 @@ bool example_cartesian_action_movement(k_api::Base::BaseClient* base, k_api::Bas
     pose->set_theta_y(feedback.base().tool_pose_theta_y());    // theta y (degrees)
     pose->set_theta_z(feedback.base().tool_pose_theta_z());    // theta z (degrees)
 
+    
     // Connect to notification action topic
     // (Reference alternative)
     // See angular examples for Promise alternative
@@ -237,6 +240,7 @@ bool example_cartesian_action_movement(k_api::Base::BaseClient* base, k_api::Bas
 
     return true;
 }
+
 
 int main(int argc, char **argv)
 {

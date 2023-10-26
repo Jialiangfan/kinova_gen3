@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="kortexApiCppExamples" targetName="500-Gen3_vision_configuration_04_vision_sensor_options" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_05-circle_example" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_03-twist_command" />
+      <config projectName="kortexApiCppExamples" targetName="107-Gripper_low_level_command_01-gripper_low_level_command" />
+      <config projectName="kortexApiCppExamples" targetName="105-Gen3_i2c_bridge_01-i2c_bridge" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_01-move_angular_and_cartesian" />
+      <config projectName="kortexApiCppExamples" targetName="000-Getting_started_03-api_mechanism" />
+      <config projectName="kortexApiCppExamples" targetName="500-Gen3_vision_configuration_02_vision_extrinsics" />
+      <config projectName="kortexApiCppExamples" targetName="200-Actuator_low_level_control_02-test1" />
+      <config projectName="kortexApiCppExamples" targetName="104-Gen3_gpio_bridge_01-gpio_bridge" />
+      <config projectName="kortexApiCppExamples" targetName="100-Overview_02-protection_zones_configuration" />
+      <config projectName="kortexApiCppExamples" targetName="110-Waypoints_02-send_cartesian_waypoint_trajectory" />
+      <config projectName="kortexApiCppExamples" targetName="100-Overview_01-devices_routing" />
+      <config projectName="kortexApiCppExamples" targetName="103-Gen3_uart_bridge_04-test_four_sequential_arms_operation" />
+      <config projectName="kortexApiCppExamples" targetName="000-Getting_started_02-protobuf_object_manipulation" />
+      <config projectName="kortexApiCppExamples" targetName="103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_06-print_actuator" />
+      <config projectName="kortexApiCppExamples" targetName="110-Waypoints_01-send_angular_wapoint_trajectory" />
+      <config projectName="kortexApiCppExamples" targetName="500-Gen3_vision_configuration_03_vision_sensor_focus_action" />
+      <config projectName="kortexApiCppExamples" targetName="000-Getting_started_01-api_creation" />
+      <config projectName="kortexApiCppExamples" targetName="000-Getting_started_04-error_management" />
+      <config projectName="kortexApiCppExamples" targetName="200-Actuator_low_level_control_03-test2" />
+      <config projectName="kortexApiCppExamples" targetName="108-Gen3_torque_control_01-torque_control_cyclic" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_07-circle_position" />
+      <config projectName="kortexApiCppExamples" targetName="000-Getting_started_05-notification" />
+      <config projectName="kortexApiCppExamples" targetName="109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration" />
+      <config projectName="kortexApiCppExamples" targetName="111-Kinematics_01-compute-kinematics" />
+      <config projectName="kortexApiCppExamples" targetName="500-Gen3_vision_configuration_01_vision_intrinsics" />
+      <config projectName="kortexApiCppExamples" targetName="103-Gen3_uart_bridge_02-test_circle" />
+      <config projectName="kortexApiCppExamples" targetName="103-Gen3_uart_bridge_03-test_four_circle" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_04-send_joint_speeds" />
+      <config projectName="kortexApiCppExamples" targetName="103-Gen3_uart_bridge_01-uart_bridge" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_08-print_four_actuators" />
+      <config projectName="kortexApiCppExamples" targetName="106-Gripper_command_01-gripper_command" />
+      <config projectName="kortexApiCppExamples" targetName="200-Actuator_low_level_control_01-actuator_low_level_velocity_control" />
+      <config projectName="kortexApiCppExamples" targetName="102-High_level_movement_02-sequence" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55aa0a5b-ba1b-4226-80d6-15e65a632826" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/examples/102-High_level_movement/01-move_angular_and_cartesian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/102-High_level_movement/01-move_angular_and_cartesian.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/102-High_level_movement/04-send_joint_speeds.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/102-High_level_movement/04-send_joint_speeds.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" beforeDir="false" afterPath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/scripts/build-gcc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/build-gcc.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/scripts/download_kortex_api.bat" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/download_kortex_api.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/scripts/download_kortex_api.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/download_kortex_api.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/utilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/utilities.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/01-move_angular_and_cartesian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/01-move_angular_and_cartesian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/04-send_joint_speeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/04-send_joint_speeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_python/examples/110-Waypoints/01-send_angular_wapoint_trajectory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/110-Waypoints/01-send_angular_wapoint_trajectory.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VppNsPQrzHJGKrA7KG6jFIxhjN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/fjl2401/kinova_gen3/kortex/api_cpp/examples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="C/C++ File.01-actuator_low_level_velocity_control.cpp">
+    <configuration name="000-Getting_started_01-api_creation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="000-Getting_started_01-api_creation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="000-Getting_started_01-api_creation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="000-Getting_started_02-protobuf_object_manipulation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="000-Getting_started_02-protobuf_object_manipulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="000-Getting_started_02-protobuf_object_manipulation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="000-Getting_started_03-api_mechanism" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="000-Getting_started_03-api_mechanism" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="000-Getting_started_03-api_mechanism">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="000-Getting_started_04-error_management" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="000-Getting_started_04-error_management" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="000-Getting_started_04-error_management">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="000-Getting_started_05-notification" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="000-Getting_started_05-notification" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="000-Getting_started_05-notification">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="100-Overview_01-devices_routing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="100-Overview_01-devices_routing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="100-Overview_01-devices_routing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="100-Overview_02-protection_zones_configuration" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="100-Overview_02-protection_zones_configuration" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="100-Overview_02-protection_zones_configuration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_01-move_angular_and_cartesian" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_01-move_angular_and_cartesian" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_01-move_angular_and_cartesian">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_02-sequence" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_02-sequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_02-sequence">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_03-twist_command" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_03-twist_command" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_03-twist_command">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_04-send_joint_speeds" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_04-send_joint_speeds" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_04-send_joint_speeds">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_05-circle_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_05-circle_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_05-circle_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_06-print_actuator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_06-print_actuator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_06-print_actuator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_07-circle_position" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_07-circle_position" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_07-circle_position">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="102-High_level_movement_08-print_four_actuators" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="102-High_level_movement_08-print_four_actuators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="102-High_level_movement_08-print_four_actuators">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="103-Gen3_uart_bridge_01-uart_bridge" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="103-Gen3_uart_bridge_01-uart_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="103-Gen3_uart_bridge_01-uart_bridge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="103-Gen3_uart_bridge_02-test_circle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="103-Gen3_uart_bridge_02-test_circle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="103-Gen3_uart_bridge_02-test_circle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="103-Gen3_uart_bridge_03-test_four_circle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="103-Gen3_uart_bridge_03-test_four_circle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="103-Gen3_uart_bridge_03-test_four_circle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="103-Gen3_uart_bridge_04-test_four_sequential_arms_operation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="103-Gen3_uart_bridge_04-test_four_sequential_arms_operation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="103-Gen3_uart_bridge_04-test_four_sequential_arms_operation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="104-Gen3_gpio_bridge_01-gpio_bridge" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="104-Gen3_gpio_bridge_01-gpio_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="104-Gen3_gpio_bridge_01-gpio_bridge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="105-Gen3_i2c_bridge_01-i2c_bridge" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="105-Gen3_i2c_bridge_01-i2c_bridge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="105-Gen3_i2c_bridge_01-i2c_bridge">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="106-Gripper_command_01-gripper_command" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="106-Gripper_command_01-gripper_command" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="106-Gripper_command_01-gripper_command">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="107-Gripper_low_level_command_01-gripper_low_level_command" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="107-Gripper_low_level_command_01-gripper_low_level_command" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="107-Gripper_low_level_command_01-gripper_low_level_command">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="108-Gen3_torque_control_01-torque_control_cyclic" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="108-Gen3_torque_control_01-torque_control_cyclic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="108-Gen3_torque_control_01-torque_control_cyclic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="110-Waypoints_01-send_angular_wapoint_trajectory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="110-Waypoints_01-send_angular_wapoint_trajectory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="110-Waypoints_01-send_angular_wapoint_trajectory">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="110-Waypoints_02-send_cartesian_waypoint_trajectory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="110-Waypoints_02-send_cartesian_waypoint_trajectory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="110-Waypoints_02-send_cartesian_waypoint_trajectory">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="111-Kinematics_01-compute-kinematics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="111-Kinematics_01-compute-kinematics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="111-Kinematics_01-compute-kinematics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="200-Actuator_low_level_control_01-actuator_low_level_velocity_control" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="200-Actuator_low_level_control_01-actuator_low_level_velocity_control" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="200-Actuator_low_level_control_01-actuator_low_level_velocity_control">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="200-Actuator_low_level_control_02-test1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="200-Actuator_low_level_control_02-test1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="200-Actuator_low_level_control_02-test1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="200-Actuator_low_level_control_03-test2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="200-Actuator_low_level_control_03-test2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="200-Actuator_low_level_control_03-test2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="500-Gen3_vision_configuration_01_vision_intrinsics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="500-Gen3_vision_configuration_01_vision_intrinsics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="500-Gen3_vision_configuration_01_vision_intrinsics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="500-Gen3_vision_configuration_02_vision_extrinsics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="500-Gen3_vision_configuration_02_vision_extrinsics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="500-Gen3_vision_configuration_02_vision_extrinsics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="500-Gen3_vision_configuration_03_vision_sensor_focus_action" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="500-Gen3_vision_configuration_03_vision_sensor_focus_action" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="500-Gen3_vision_configuration_03_vision_sensor_focus_action">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="500-Gen3_vision_configuration_04_vision_sensor_options" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kortexApiCppExamples" TARGET_NAME="500-Gen3_vision_configuration_04_vision_sensor_options" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kortexApiCppExamples" RUN_TARGET_NAME="500-Gen3_vision_configuration_04_vision_sensor_options">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-actuator_low_level_velocity_control.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="api_cpp" TARGET_NAME="01-actuator_low_level_velocity_control.cpp" CONFIG_NAME="01-actuator_low_level_velocity_control.cpp">
+      <option name="sourceFile" value="examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.01-actuator_low_level_velocity_control.cpp" />
+      <item itemvalue="CMake Application.000-Getting_started_01-api_creation" />
+      <item itemvalue="CMake Application.000-Getting_started_02-protobuf_object_manipulation" />
+      <item itemvalue="CMake Application.000-Getting_started_03-api_mechanism" />
+      <item itemvalue="CMake Application.000-Getting_started_04-error_management" />
+      <item itemvalue="CMake Application.000-Getting_started_05-notification" />
+      <item itemvalue="CMake Application.100-Overview_01-devices_routing" />
+      <item itemvalue="CMake Application.100-Overview_02-protection_zones_configuration" />
+      <item itemvalue="CMake Application.102-High_level_movement_01-move_angular_and_cartesian" />
+      <item itemvalue="CMake Application.102-High_level_movement_02-sequence" />
+      <item itemvalue="CMake Application.102-High_level_movement_03-twist_command" />
+      <item itemvalue="CMake Application.102-High_level_movement_04-send_joint_speeds" />
+      <item itemvalue="CMake Application.102-High_level_movement_05-circle_example" />
+      <item itemvalue="CMake Application.102-High_level_movement_06-print_actuator" />
+      <item itemvalue="CMake Application.102-High_level_movement_07-circle_position" />
+      <item itemvalue="CMake Application.102-High_level_movement_08-print_four_actuators" />
+      <item itemvalue="CMake Application.103-Gen3_uart_bridge_01-uart_bridge" />
+      <item itemvalue="CMake Application.103-Gen3_uart_bridge_02-test_circle" />
+      <item itemvalue="CMake Application.103-Gen3_uart_bridge_03-test_four_circle" />
+      <item itemvalue="CMake Application.103-Gen3_uart_bridge_04-test_four_sequential_arms_operation" />
+      <item itemvalue="CMake Application.103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2" />
+      <item itemvalue="CMake Application.104-Gen3_gpio_bridge_01-gpio_bridge" />
+      <item itemvalue="CMake Application.105-Gen3_i2c_bridge_01-i2c_bridge" />
+      <item itemvalue="CMake Application.106-Gripper_command_01-gripper_command" />
+      <item itemvalue="CMake Application.107-Gripper_low_level_command_01-gripper_low_level_command" />
+      <item itemvalue="CMake Application.108-Gen3_torque_control_01-torque_control_cyclic" />
+      <item itemvalue="CMake Application.109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration" />
+      <item itemvalue="CMake Application.110-Waypoints_01-send_angular_wapoint_trajectory" />
+      <item itemvalue="CMake Application.110-Waypoints_02-send_cartesian_waypoint_trajectory" />
+      <item itemvalue="CMake Application.111-Kinematics_01-compute-kinematics" />
+      <item itemvalue="CMake Application.200-Actuator_low_level_control_01-actuator_low_level_velocity_control" />
+      <item itemvalue="CMake Application.200-Actuator_low_level_control_02-test1" />
+      <item itemvalue="CMake Application.200-Actuator_low_level_control_03-test2" />
+      <item itemvalue="CMake Application.500-Gen3_vision_configuration_01_vision_intrinsics" />
+      <item itemvalue="CMake Application.500-Gen3_vision_configuration_02_vision_extrinsics" />
+      <item itemvalue="CMake Application.500-Gen3_vision_configuration_03_vision_sensor_focus_action" />
+      <item itemvalue="CMake Application.500-Gen3_vision_configuration_04_vision_sensor_options" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.01-actuator_low_level_velocity_control.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55aa0a5b-ba1b-4226-80d6-15e65a632826" name="Changes" comment="" />
+      <created>1695542838502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695542838502</updated>
+      <workItem from="1695542839685" duration="5265000" />
+      <workItem from="1695548503514" duration="889000" />
+      <workItem from="1695549742520" duration="1734000" />
+      <workItem from="1697253691748" duration="10797000" />
+      <workItem from="1697877687527" duration="132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
