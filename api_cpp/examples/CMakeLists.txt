@@ -230,7 +230,8 @@ foreach ( SRC_FILE ${EXE_LIST} )
 
   string(REPLACE ".cpp" "" TARGET_EXE_NAME ${SRC_FILE})
   string(REPLACE "/" "_" TARGET_EXE_NAME ${TARGET_EXE_NAME})
-  
+
+
   MESSAGE("creating TARGET_EXE_NAME: '${TARGET_EXE_NAME}'")
 
   add_executable(${TARGET_EXE_NAME} ${SRC_FILE} utilities.cpp)

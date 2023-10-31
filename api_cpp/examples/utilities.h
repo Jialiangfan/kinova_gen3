@@ -25,7 +25,7 @@ struct ExampleArgs
 
 struct Taskconfig
 {
-    std::string   joint_velocity_file;
+     char *  joint_velocity_file;
 };
 
 ExampleArgs ParseExampleArguments(int argc, char *argv[]);

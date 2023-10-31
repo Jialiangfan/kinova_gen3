@@ -1,0 +1,393 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kortexApiCppExamples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "000-Getting_started_01-api_creation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-000-Getting_started_01-api_creation-Debug-cfc9ca9f2d68338282cd.json",
+					"name" : "000-Getting_started_01-api_creation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "000-Getting_started_02-protobuf_object_manipulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-000-Getting_started_02-protobuf_object_manipulation-Debug-c3c22eb5e60e16a8f3bf.json",
+					"name" : "000-Getting_started_02-protobuf_object_manipulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "000-Getting_started_03-api_mechanism::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-000-Getting_started_03-api_mechanism-Debug-054c9fb638396a53dadf.json",
+					"name" : "000-Getting_started_03-api_mechanism",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "000-Getting_started_04-error_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-000-Getting_started_04-error_management-Debug-7673d3458bf9bc2ef38b.json",
+					"name" : "000-Getting_started_04-error_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "000-Getting_started_05-notification::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-000-Getting_started_05-notification-Debug-0e422b251f70dddb2ddd.json",
+					"name" : "000-Getting_started_05-notification",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "100-Overview_01-devices_routing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-100-Overview_01-devices_routing-Debug-9cea999b5fe850c10854.json",
+					"name" : "100-Overview_01-devices_routing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "100-Overview_02-protection_zones_configuration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-100-Overview_02-protection_zones_configuration-Debug-5bdbb4505f9b557a03ac.json",
+					"name" : "100-Overview_02-protection_zones_configuration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_01-move_angular_and_cartesian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_01-move_angular_and_cartesian-Debug-996667096e2eb986acc8.json",
+					"name" : "102-High_level_movement_01-move_angular_and_cartesian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_02-sequence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_02-sequence-Debug-727c1977ef6b1f4c16b5.json",
+					"name" : "102-High_level_movement_02-sequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_03-twist_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_03-twist_command-Debug-57e11263cd03f45cf190.json",
+					"name" : "102-High_level_movement_03-twist_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_04-send_joint_speeds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_04-send_joint_speeds-Debug-3ef1cfbdb8e735da13db.json",
+					"name" : "102-High_level_movement_04-send_joint_speeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_05-circle_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_05-circle_example-Debug-0f5fee6ae5c789adc1b5.json",
+					"name" : "102-High_level_movement_05-circle_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_06-print_actuator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_06-print_actuator-Debug-7499583246b2fbb2f67b.json",
+					"name" : "102-High_level_movement_06-print_actuator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_07-circle_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_07-circle_position-Debug-7e5d64c639f4a4c89fae.json",
+					"name" : "102-High_level_movement_07-circle_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-High_level_movement_08-print_four_actuators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-High_level_movement_08-print_four_actuators-Debug-341b91dc87892f0547dd.json",
+					"name" : "102-High_level_movement_08-print_four_actuators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "103-Gen3_uart_bridge_01-uart_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-103-Gen3_uart_bridge_01-uart_bridge-Debug-f5a7c3f575b4a484cf7e.json",
+					"name" : "103-Gen3_uart_bridge_01-uart_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "103-Gen3_uart_bridge_02-test_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-103-Gen3_uart_bridge_02-test_circle-Debug-6216c0f91a70dabc9025.json",
+					"name" : "103-Gen3_uart_bridge_02-test_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "103-Gen3_uart_bridge_03-test_four_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-103-Gen3_uart_bridge_03-test_four_circle-Debug-ec9bc699bedbd9d6a98c.json",
+					"name" : "103-Gen3_uart_bridge_03-test_four_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "103-Gen3_uart_bridge_04-test_four_sequential_arms_operation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-103-Gen3_uart_bridge_04-test_four_sequential_arms_operation-Debug-ead997bd098a25d1ff96.json",
+					"name" : "103-Gen3_uart_bridge_04-test_four_sequential_arms_operation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2-Debug-f1a39a4c90539bf09712.json",
+					"name" : "103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "104-Gen3_gpio_bridge_01-gpio_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-104-Gen3_gpio_bridge_01-gpio_bridge-Debug-88a2095fce6977264a5c.json",
+					"name" : "104-Gen3_gpio_bridge_01-gpio_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "105-Gen3_i2c_bridge_01-i2c_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-105-Gen3_i2c_bridge_01-i2c_bridge-Debug-d5e8e9dd52f7d469c48e.json",
+					"name" : "105-Gen3_i2c_bridge_01-i2c_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "106-Gripper_command_01-gripper_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-106-Gripper_command_01-gripper_command-Debug-363a6da913c84cf3dbb6.json",
+					"name" : "106-Gripper_command_01-gripper_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "107-Gripper_low_level_command_01-gripper_low_level_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-107-Gripper_low_level_command_01-gripper_low_level_command-Debug-b38119ab7ae3ece1f80b.json",
+					"name" : "107-Gripper_low_level_command_01-gripper_low_level_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "108-Gen3_torque_control_01-torque_control_cyclic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-108-Gen3_torque_control_01-torque_control_cyclic-Debug-3ec64a38f48d02d56938.json",
+					"name" : "108-Gen3_torque_control_01-torque_control_cyclic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration-Debug-62d92ba1391b9a062c59.json",
+					"name" : "109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "110-Waypoints_01-send_angular_wapoint_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-110-Waypoints_01-send_angular_wapoint_trajectory-Debug-ce2e0bbabc8100e8e19a.json",
+					"name" : "110-Waypoints_01-send_angular_wapoint_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "110-Waypoints_02-send_cartesian_waypoint_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-110-Waypoints_02-send_cartesian_waypoint_trajectory-Debug-85a481d62c79965c4530.json",
+					"name" : "110-Waypoints_02-send_cartesian_waypoint_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "111-Kinematics_01-compute-kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-111-Kinematics_01-compute-kinematics-Debug-770e82a76eba403a7115.json",
+					"name" : "111-Kinematics_01-compute-kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "200-Actuator_low_level_control_01-move_to_initial_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-200-Actuator_low_level_control_01-move_to_initial_position-Debug-15f625498afda1e4b31a.json",
+					"name" : "200-Actuator_low_level_control_01-move_to_initial_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "200-Actuator_low_level_control_02-actuator_low_level_velocity_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-200-Actuator_low_level_control_02-actuator_low_level_velocity_control-Debug-b2eed412a88e639844f7.json",
+					"name" : "200-Actuator_low_level_control_02-actuator_low_level_velocity_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "200-Actuator_low_level_control_02-test1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-200-Actuator_low_level_control_02-test1-Debug-1f21ae6cfdb75fe7c955.json",
+					"name" : "200-Actuator_low_level_control_02-test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "200-Actuator_low_level_control_03-single-arm-velocity_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-200-Actuator_low_level_control_03-single-arm-velocity_control-Debug-f823e5966e58d5d17693.json",
+					"name" : "200-Actuator_low_level_control_03-single-arm-velocity_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "200-Actuator_low_level_control_03-test2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-200-Actuator_low_level_control_03-test2-Debug-ef3b51e4e9ee9ee3372f.json",
+					"name" : "200-Actuator_low_level_control_03-test2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "500-Gen3_vision_configuration_01_vision_intrinsics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-500-Gen3_vision_configuration_01_vision_intrinsics-Debug-81efe627c8c98c3c1cbb.json",
+					"name" : "500-Gen3_vision_configuration_01_vision_intrinsics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "500-Gen3_vision_configuration_02_vision_extrinsics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-500-Gen3_vision_configuration_02_vision_extrinsics-Debug-7337934f453cbb2a0d60.json",
+					"name" : "500-Gen3_vision_configuration_02_vision_extrinsics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "500-Gen3_vision_configuration_03_vision_sensor_focus_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-500-Gen3_vision_configuration_03_vision_sensor_focus_action-Debug-5ab09c15de868198921a.json",
+					"name" : "500-Gen3_vision_configuration_03_vision_sensor_focus_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "500-Gen3_vision_configuration_04_vision_sensor_options::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-500-Gen3_vision_configuration_04_vision_sensor_options-Debug-49324c706486cf6f88d7.json",
+					"name" : "500-Gen3_vision_configuration_04_vision_sensor_options",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug",
+		"source" : "/home/fjl2401/kinova_gen3/kortex/api_cpp/examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

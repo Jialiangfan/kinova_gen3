@@ -30,6 +30,7 @@
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_01-move_to_initial_position.dir
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_02-actuator_low_level_velocity_control.dir
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_02-test1.dir
+/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_03-test2.dir
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/500-Gen3_vision_configuration_01_vision_intrinsics.dir
 /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug/CMakeFiles/500-Gen3_vision_configuration_02_vision_extrinsics.dir

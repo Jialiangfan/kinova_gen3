@@ -107,7 +107,7 @@ int64_t GetTickUs() {
 #endif
 }
 
-bool move_to_target_position(k_api::Base::BaseClient *base, string ip_address) {
+bool move_to_target_position(k_api::Base::BaseClient *base, string ip_address,std::vector<float> init_angle) {
     // Make sure the arm is in Single Level Servoing before executing an Action
     auto servoingMode = k_api::Base::ServoingModeInformation();
     servoingMode.set_servoing_mode(k_api::Base::ServoingMode::SINGLE_LEVEL_SERVOING);
@@ -115,19 +115,16 @@ bool move_to_target_position(k_api::Base::BaseClient *base, string ip_address) {
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
     // Move arm to ready position
-    std::cout << "Moving the arm  to the target position...  ip address: "<< ip_address << std::endl;
+    std::cout << "Moving the arm  to the target position...  ip address: " << ip_address << std::endl;
     auto constrained_joint_angles = k_api::Base::ConstrainedJointAngles();
     auto joint_angles = constrained_joint_angles.mutable_joint_angles();
 
     auto actuator_count = base->GetActuatorCount();
 
-//    const std::vector<float> angles{136, 309.5, 68.76, 269.98, 297.97, 86.39};
-    const std::vector<float> angles{0.216738301215512,0.121700141186891,4.66239744039609,1.49316681779883,4.95536191184157,1.09293937175229};
-
-    for (size_t i = 0; i < angles.size(); ++i) {
+    for (size_t i = 0; i < init_angle.size(); ++i) {
         auto joint_angle = joint_angles->add_joint_angles();
         joint_angle->set_joint_identifier(i);
-        joint_angle->set_value(angles[i]*180/M_PI);
+        joint_angle->set_value(init_angle[i] * 180 / M_PI);
     }
 
     // Connect to notification action topic
@@ -153,8 +150,7 @@ bool move_to_target_position(k_api::Base::BaseClient *base, string ip_address) {
 }
 
 
-
-void move_robot_to_initial_state(ExampleArgs robot_config){
+void move_robot_to_initial_state(ExampleArgs robot_config,std::vector<float> init_angle) {
 //  ################################### 创建session
     auto error_callback = [](k_api::KError err) { cout << "_________ callback error _________" << err.toString(); };
     auto transport = new k_api::TransportClientTcp();
@@ -169,16 +165,16 @@ void move_robot_to_initial_state(ExampleArgs robot_config){
     create_session_info.set_session_inactivity_timeout(60000);   // (milliseconds)
     create_session_info.set_connection_inactivity_timeout(2000); // (milliseconds)
     pid_t pid = pthread_self();
-    std::cout << "Creating sessions for communication, current pid: " << pid<< std::endl;
+    std::cout << "Creating sessions for communication, current pid: " << pid << std::endl;
     auto session_manager = new k_api::SessionManager(router);
     session_manager->CreateSession(create_session_info);
     auto session_manager_real_time = new k_api::SessionManager(router_real_time);
     session_manager_real_time->CreateSession(create_session_info);
-    std::cout << "Sessions created, current pid: " << pid<< std::endl;
+    std::cout << "Sessions created, current pid: " << pid << std::endl;
     auto base = new k_api::Base::BaseClient(router);
     auto base_cyclic = new k_api::BaseCyclic::BaseCyclicClient(router_real_time);
 //  ################################### 调用方法
-    move_to_target_position(base,robot_config.ip_address);
+    move_to_target_position(base, robot_config.ip_address,init_angle);
     // Close API session
     session_manager->CloseSession();
     session_manager_real_time->CloseSession();
@@ -200,20 +196,28 @@ void move_robot_to_initial_state(ExampleArgs robot_config){
 }
 
 
-
-
 int main(int argc, char **argv) {
 
-    ExampleArgs robot1={"192.168.2.21","admin","admin"};
-    ExampleArgs robot2={"192.168.2.22","admin","admin"};
-    ExampleArgs robot3={"192.168.2.23","admin","admin"};
-    ExampleArgs robot4={"192.168.2.24","admin","admin"};
+    ExampleArgs robot1 = {"192.168.2.21", "admin", "admin"};
+    ExampleArgs robot2 = {"192.168.2.22", "admin", "admin"};
+    ExampleArgs robot3 = {"192.168.2.23", "admin", "admin"};
+    ExampleArgs robot4 = {"192.168.2.24", "admin", "admin"};
+//    弧度值表示
+    const std::vector<float> angles1{0.216738301215512, 0.121700141186891, 4.66239744039609, 1.49316681779883,
+                                     4.95536191184157, 1.09293937175229};
+    const std::vector<float> angles2{0.216738301215512, 0.121700141186891, 4.66239744039609, 1.49316681779883,
+                                     4.95536191184157, 1.09293937175229};
+    const std::vector<float> angles3{0.216738301215512, 0.121700141186891, 4.66239744039609, 1.49316681779883,
+                                     4.95536191184157, 1.09293937175229};
+    const std::vector<float> angles4{0.216738301215512, 0.121700141186891, 4.66239744039609, 1.49316681779883,
+                                     4.95536191184157, 1.09293937175229};
 
-//    move the robot to initial config
-    std::thread init_thread1(move_robot_to_initial_state,robot1);
-    std::thread init_thread2(move_robot_to_initial_state,robot2);
-    std::thread init_thread3(move_robot_to_initial_state,robot3);
-    std::thread init_thread4(move_robot_to_initial_state,robot3);
+
+    //    move the robot to initial config
+    std::thread init_thread1(move_robot_to_initial_state, robot1,angles1);
+    std::thread init_thread2(move_robot_to_initial_state, robot2,angles2);
+    std::thread init_thread3(move_robot_to_initial_state, robot3,angles3);
+    std::thread init_thread4(move_robot_to_initial_state, robot4,angles4);
     init_thread1.join();
     init_thread2.join();
     init_thread3.join();

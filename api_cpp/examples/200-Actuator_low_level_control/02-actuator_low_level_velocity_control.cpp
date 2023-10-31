@@ -122,12 +122,13 @@ bool move_to_target_position(k_api::Base::BaseClient *base) {
     auto actuator_count = base->GetActuatorCount();
 
 //    const std::vector<float> angles{136, 309.5, 68.76, 269.98, 297.97, 86.39};
-    const std::vector<float> angles{0.216738301215512,0.121700141186891,4.66239744039609,1.49316681779883,4.95536191184157,1.09293937175229};
+    const std::vector<float> angles{0.216738301215512, 0.121700141186891, 4.66239744039609, 1.49316681779883,
+                                    4.95536191184157, 1.09293937175229};
 
     for (size_t i = 0; i < angles.size(); ++i) {
         auto joint_angle = joint_angles->add_joint_angles();
         joint_angle->set_joint_identifier(i);
-        joint_angle->set_value(angles[i]*180/M_PI);
+        joint_angle->set_value(angles[i] * 180 / M_PI);
     }
 
     // Connect to notification action topic
@@ -202,12 +203,9 @@ bool example_actuator_low_level_velocity_control(k_api::Base::BaseClient *base,
                                                  k_api::BaseCyclic::BaseCyclicClient *base_cyclic) {
     bool return_status = true;
 
-    // Move arm to ready position
-//    example_move_to_home_position(base);
     std::cout << "move finished" << std::endl;
     k_api::BaseCyclic::Feedback base_feedback;
     k_api::BaseCyclic::Command base_command;
-
     std::vector<float> commands;
 
     auto servoingMode = k_api::Base::ServoingModeInformation();
@@ -228,8 +226,7 @@ bool example_actuator_low_level_velocity_control(k_api::Base::BaseClient *base,
         int actuator_count = base->GetActuatorCount().count();
 
         // Initialize each actuator to its current position
-        for(int i = 0; i < actuator_count; i++)
-        {
+        for (int i = 0; i < actuator_count; i++) {
             commands.push_back(base_feedback.actuators(i).position());
             base_command.add_actuators()->set_position(base_feedback.actuators(i).position());
         }
@@ -278,10 +275,8 @@ bool example_actuator_low_level_velocity_control(k_api::Base::BaseClient *base,
     // Set back the servoing mode to Single Level Servoing
     servoingMode.set_servoing_mode(k_api::Base::ServoingMode::SINGLE_LEVEL_SERVOING);
     base->SetServoingMode(servoingMode);
-
     // Wait for a bit
     std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-
     return return_status;
 }
 
@@ -297,8 +292,8 @@ std::array<float, 7> split_by_space(std::string str) {
 }
 
 
-std::vector<std::array<float, 7>> read_joint_velocity_from_file(const std::string filename) {
-    freopen(filename.c_str(), "r", stdin);
+std::vector<std::array<float, 7>> read_joint_velocity_from_file(const char *filename) {
+    freopen(filename, "r", stdin);
     std::vector<std::array<float, 7>> res;
     std::string line;
     while (getline(std::cin, line)) {
@@ -310,7 +305,8 @@ std::vector<std::array<float, 7>> read_joint_velocity_from_file(const std::strin
 
 
 bool
-low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseCyclic::BaseCyclicClient *base_cyclic, Taskconfig config) {
+low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseCyclic::BaseCyclicClient *base_cyclic,
+                                     Taskconfig config) {
     bool return_status = true;
 
     std::cout << "enter the control function" << std::endl;
@@ -332,15 +328,12 @@ low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseC
         servoingMode.set_servoing_mode(k_api::Base::ServoingMode::LOW_LEVEL_SERVOING);
         base->SetServoingMode(servoingMode);
         base_feedback = base_cyclic->RefreshFeedback();
-
         int actuator_count = base->GetActuatorCount().count();
-
         // Initialize each actuator to its current position
         for (int i = 0; i < actuator_count; i++) {
             commands.push_back(base_feedback.actuators(i).position());
             base_command.add_actuators()->set_position(base_feedback.actuators(i).position());
         }
-
         // Define the callback function used in Refresh_callback
         auto lambda_fct_callback = [](const Kinova::Api::Error &err, const k_api::BaseCyclic::Feedback data) {
             // We are printing the data of the moving actuator just for the example purpose,
@@ -353,7 +346,7 @@ low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseC
                 config.joint_velocity_file);
         std::cout << "read finished, joint velocity size:" << joint_velocities.size() << std::endl;
         // Real-time loop
-        int loops=0;
+        int loops = 0;
         while (timer_count < (time_duration * 1000)) {
 //            std::cout << "current joint velocity:" << std::endl;
 //            for (int i = 0; i < 7; i++) {
@@ -366,9 +359,9 @@ low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseC
                 joint_velocities.erase(joint_velocities.begin());
                 for (int i = 0; i < actuator_count; i++) {
                     // Move only the last actuator to prevent collision
-                    commands[i] += (0.001f * current_joint_velocity[i]* 180 / M_PI);
+                    commands[i] += (0.001f * current_joint_velocity[i] * 180 / M_PI);
 //                    commands[i] = current_joint_velocity[i]*  180 / M_PI;
-                    std::cout<<"joint position current"<<commands[i]<<std::endl;
+                    std::cout << "joint position current" << commands[i] << std::endl;
                     base_command.mutable_actuators(i)->set_position(commands[i]);
 //                    base_command.mutable_actuators(i)->set_velocity(current_joint_velocity[i]* 180 / M_PI*1000);
                 }
@@ -381,7 +374,7 @@ low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseC
                 timer_count++;
                 last = GetTickUs();
             }
-            loops+=1;
+            loops += 1;
         }
     }
     catch (k_api::KDetailedException &ex) {
@@ -404,9 +397,11 @@ low_level_velocity_control_from_file(k_api::Base::BaseClient *base, k_api::BaseC
 }
 
 
-void move_robot_to_initial_state(ExampleArgs robot_config){
+void move_robot_to_initial_state(ExampleArgs robot_config) {
 //  ################################### 创建session
     auto error_callback = [](k_api::KError err) { cout << "_________ callback error _________" << err.toString(); };
+
+
     auto transport = new k_api::TransportClientTcp();
     auto router = new k_api::RouterClient(transport, error_callback);
     transport->connect(robot_config.ip_address, PORT);
@@ -425,6 +420,15 @@ void move_robot_to_initial_state(ExampleArgs robot_config){
     session_manager_real_time->CreateSession(create_session_info);
     std::cout << "Sessions created" << std::endl;
     auto base = new k_api::Base::BaseClient(router);
+// clear fault
+    try {
+        base->ClearFaults();
+    }
+    catch (...) {
+        std::cout << "Unable to clear robot faults" << std::endl;
+    }
+
+
     auto base_cyclic = new k_api::BaseCyclic::BaseCyclicClient(router_real_time);
 //  ################################### 调用方法
     move_to_target_position(base);
@@ -449,8 +453,7 @@ void move_robot_to_initial_state(ExampleArgs robot_config){
 }
 
 
-
-void run_joint_velocity_from_file(ExampleArgs robot_config,Taskconfig task_config){
+void run_joint_velocity_from_file(ExampleArgs robot_config, Taskconfig task_config) {
 //  ################################### 创建session
     auto error_callback = [](k_api::KError err) { cout << "_________ callback error _________" << err.toString(); };
     auto transport = new k_api::TransportClientTcp();
@@ -473,8 +476,8 @@ void run_joint_velocity_from_file(ExampleArgs robot_config,Taskconfig task_confi
     auto base = new k_api::Base::BaseClient(router);
     auto base_cyclic = new k_api::BaseCyclic::BaseCyclicClient(router_real_time);
 //  ################################### 调用方法
-    auto isOk = low_level_velocity_control_from_file(base, base_cyclic,task_config);
-        if (!isOk) {
+    auto isOk = low_level_velocity_control_from_file(base, base_cyclic, task_config);
+    if (!isOk) {
         std::cout << "There has been an unexpected error in example_cyclic_armbase() function." << std::endl;
     }
     // Close API session
@@ -496,34 +499,52 @@ void run_joint_velocity_from_file(ExampleArgs robot_config,Taskconfig task_confi
     delete transport;
     delete transport_real_time;
 }
-int main(int argc, char **argv) {
 
-    ExampleArgs robot1={"192.168.2.21","admin","admin"};
-    ExampleArgs robot2={"192.168.2.22","admin","admin"};
-    ExampleArgs robot3={"192.168.2.23","admin","admin"};
-    ExampleArgs robot4={"192.168.2.24","admin","admin"};
+int main(int argc, char **argv) {
+    if (argc != 2) {
+        std::cerr << "Usage: " << argv[0] << " <move_to_initial: 0 or 1>" << std::endl;
+        return -1;
+    }
+
+    ExampleArgs robot1 = {"192.168.2.21", "admin", "admin"};
+    ExampleArgs robot2 = {"192.168.2.22", "admin", "admin"};
+    ExampleArgs robot3 = {"192.168.2.23", "admin", "admin"};
+    ExampleArgs robot4 = {"192.168.2.24", "admin", "admin"};
+//    运行程序前是否要回到初始位置
+    bool move_to_start = std::stoi(argv[1]);
+
+    if (move_to_start) {
 
 //    move the robot to initial config
-    std::thread init_thread1(move_robot_to_initial_state,robot1);
-    std::thread init_thread2(move_robot_to_initial_state,robot2);
-    std::thread init_thread3(move_robot_to_initial_state,robot3);
-    std::thread init_thread4(move_robot_to_initial_state,robot3);
-    init_thread1.join();
-    init_thread2.join();
-    init_thread3.join();
-    init_thread4.join();
+        std::thread init_thread1(move_robot_to_initial_state, robot1);
+        std::thread init_thread2(move_robot_to_initial_state, robot2);
+        std::thread init_thread3(move_robot_to_initial_state, robot3);
+        std::thread init_thread4(move_robot_to_initial_state, robot4);//new add
+        init_thread1.join();
+        init_thread2.join();
+        init_thread3.join();
+        init_thread4.join();//new add
+    }
+    std::cout << "程序暂停2s" << std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(5));
+    std::cout << "程序继续执行" << std::endl;
 
-    Taskconfig config1={"/home/fjl2401/Downloads/3.txt"};
-    Taskconfig config2={"/home/fjl2401/Downloads/3.txt"};
-    Taskconfig config3={"/home/fjl2401/Downloads/3.txt"};
-    Taskconfig config3={"/home/fjl2401/Downloads/3.txt"};
 
-    std::thread task_thread1(run_joint_velocity_from_file,robot1,config1);
-    std::thread task_thread2(run_joint_velocity_from_file,robot2,config2);
-    std::thread task_thread3(run_joint_velocity_from_file,robot3,config3);
+// 执行离线画图任务
+    Taskconfig config1 = {"/home/fjl2401/Downloads/circle-10.txt"};
+    Taskconfig config2 = {"/home/fjl2401/Downloads/circle-10.txt"};
+    Taskconfig config3 = {"/home/fjl2401/Downloads/circle-10.txt"};
+    Taskconfig config4 = {"/home/fjl2401/Downloads/circle-10.txt"};//new add
+//   创建线程
+    std::thread task_thread1(run_joint_velocity_from_file, robot1, config1);
+    std::thread task_thread2(run_joint_velocity_from_file, robot2, config2);
+    std::thread task_thread3(run_joint_velocity_from_file, robot3, config3);
+    std::thread task_thread4(run_joint_velocity_from_file, robot4, config4);//new add
     task_thread1.join();
     task_thread2.join();
     task_thread3.join();
+    task_thread4.join();
+    //new add
 
     // Example core
 //    auto isOk = low_level_velocity_control_from_file(base, base_cyclic);

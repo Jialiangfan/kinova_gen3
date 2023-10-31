@@ -56,15 +56,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aa0a5b-ba1b-4226-80d6-15e65a632826" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/102-High_level_movement/01-move_angular_and_cartesian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/102-High_level_movement/01-move_angular_and_cartesian.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/102-High_level_movement/04-send_joint_speeds.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/102-High_level_movement/04-send_joint_speeds.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" beforeDir="false" afterPath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" beforeDir="false" afterPath="$PROJECT_DIR$/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/scripts/build-gcc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/build-gcc.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/scripts/download_kortex_api.bat" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/download_kortex_api.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/scripts/download_kortex_api.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/scripts/download_kortex_api.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/utilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/utilities.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-move_to_initial_position.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/01-move_to_initial_position.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/02-actuator_low_level_velocity_control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/200-Actuator_low_level_control/02-actuator_low_level_velocity_control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_01-move_to_initial_position.dir/200-Actuator_low_level_control/01-move_to_initial_position.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cmake-build-debug/CMakeFiles/200-Actuator_low_level_control_01-move_to_initial_position.dir/200-Actuator_low_level_control/01-move_to_initial_position.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/cmake-build-debug/bin/200-Actuator_low_level_control_01-move_to_initial_position" beforeDir="false" afterPath="$PROJECT_DIR$/examples/cmake-build-debug/bin/200-Actuator_low_level_control_01-move_to_initial_position" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/utilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/examples/utilities.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/01-move_angular_and_cartesian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/01-move_angular_and_cartesian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/04-send_joint_speeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/102-Movement_high_level/04-send_joint_speeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../api_python/examples/109-Gen3_ethernet_bridge/configure_route_to_device.bash" afterDir="false" />
@@ -99,7 +99,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/fjl2401/kinova_gen3/kortex/api_cpp/examples",
+    "last_opened_file_path": "/home/fjl2401/kinova_gen3/kortex/api_cpp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -289,11 +289,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="01-actuator_low_level_velocity_control.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="api_cpp" TARGET_NAME="01-actuator_low_level_velocity_control.cpp" CONFIG_NAME="01-actuator_low_level_velocity_control.cpp">
       <option name="sourceFile" value="examples/200-Actuator_low_level_control/01-actuator_low_level_velocity_control.cpp" />
       <method v="2">
@@ -358,6 +353,7 @@
       <workItem from="1695549742520" duration="1734000" />
       <workItem from="1697253691748" duration="10797000" />
       <workItem from="1697877687527" duration="132000" />
+      <workItem from="1698742732078" duration="63000" />
     </task>
     <servers />
   </component>

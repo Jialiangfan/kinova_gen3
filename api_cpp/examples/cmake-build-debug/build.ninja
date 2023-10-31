@@ -1417,6 +1417,49 @@ build bin/200-Actuator_low_level_control_02-test1: CXX_EXECUTABLE_LINKER__200-Ac
   TARGET_PDB = 200-Actuator_low_level_control_02-test1.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 200-Actuator_low_level_control_03-single-arm-velocity_control
+
+
+#############################################
+# Order-only phony target for 200-Actuator_low_level_control_03-single-arm-velocity_control
+
+build cmake_object_order_depends_target_200-Actuator_low_level_control_03-single-arm-velocity_control: phony || CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
+
+build CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/200-Actuator_low_level_control/03-single-arm-velocity_control.cpp.o: CXX_COMPILER__200-Actuator_low_level_control_03-single-arm-velocity_control_Debug /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/200-Actuator_low_level_control/03-single-arm-velocity_control.cpp || cmake_object_order_depends_target_200-Actuator_low_level_control_03-single-arm-velocity_control
+  DEFINES = -D_OS_UNIX
+  DEP_FILE = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/200-Actuator_low_level_control/03-single-arm-velocity_control.cpp.o.d
+  FLAGS = -g  -fdiagnostics-color=always -Wall -Wno-reorder -std=gnu++11
+  INCLUDES = -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/thirdParty/cxxopts -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/client -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/client_stubs -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/common -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/messages -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/server -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/server_stubs -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/thirdParty/include
+  OBJECT_DIR = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
+  OBJECT_FILE_DIR = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/200-Actuator_low_level_control
+
+build CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/utilities.cpp.o: CXX_COMPILER__200-Actuator_low_level_control_03-single-arm-velocity_control_Debug /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/utilities.cpp || cmake_object_order_depends_target_200-Actuator_low_level_control_03-single-arm-velocity_control
+  DEFINES = -D_OS_UNIX
+  DEP_FILE = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/utilities.cpp.o.d
+  FLAGS = -g  -fdiagnostics-color=always -Wall -Wno-reorder -std=gnu++11
+  INCLUDES = -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples -I/home/fjl2401/kinova_gen3/kortex/api_cpp/examples/thirdParty/cxxopts -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/client -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/client_stubs -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/common -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/messages -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/server -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/include/server_stubs -I/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/thirdParty/include
+  OBJECT_DIR = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
+  OBJECT_FILE_DIR = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 200-Actuator_low_level_control_03-single-arm-velocity_control
+
+
+#############################################
+# Link the executable bin/200-Actuator_low_level_control_03-single-arm-velocity_control
+
+build bin/200-Actuator_low_level_control_03-single-arm-velocity_control: CXX_EXECUTABLE_LINKER__200-Actuator_low_level_control_03-single-arm-velocity_control_Debug CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/200-Actuator_low_level_control/03-single-arm-velocity_control.cpp.o CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir/utilities.cpp.o
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/lib  -lKortexApiCpp  -lpthread
+  LINK_PATH = -L/home/fjl2401/.conan/data/kortex_api_cpp/2.6.0-r.3/kortex/stable/package/9755f981ac44041fa0948f05e49abfa3d3346131/lib
+  OBJECT_DIR = CMakeFiles/200-Actuator_low_level_control_03-single-arm-velocity_control.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/200-Actuator_low_level_control_03-single-arm-velocity_control
+  TARGET_PDB = 200-Actuator_low_level_control_03-single-arm-velocity_control.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 200-Actuator_low_level_control_03-test2
 
 
@@ -1721,6 +1764,8 @@ build 200-Actuator_low_level_control_02-actuator_low_level_velocity_control: pho
 
 build 200-Actuator_low_level_control_02-test1: phony bin/200-Actuator_low_level_control_02-test1
 
+build 200-Actuator_low_level_control_03-single-arm-velocity_control: phony bin/200-Actuator_low_level_control_03-single-arm-velocity_control
+
 build 200-Actuator_low_level_control_03-test2: phony bin/200-Actuator_low_level_control_03-test2
 
 build 500-Gen3_vision_configuration_01_vision_intrinsics: phony bin/500-Gen3_vision_configuration_01_vision_intrinsics
@@ -1739,7 +1784,7 @@ build 500-Gen3_vision_configuration_04_vision_sensor_options: phony bin/500-Gen3
 #############################################
 # Folder: /home/fjl2401/kinova_gen3/kortex/api_cpp/examples/cmake-build-debug
 
-build all: phony bin/000-Getting_started_01-api_creation bin/000-Getting_started_02-protobuf_object_manipulation bin/000-Getting_started_03-api_mechanism bin/000-Getting_started_04-error_management bin/000-Getting_started_05-notification bin/100-Overview_01-devices_routing bin/100-Overview_02-protection_zones_configuration bin/102-High_level_movement_01-move_angular_and_cartesian bin/102-High_level_movement_02-sequence bin/102-High_level_movement_03-twist_command bin/102-High_level_movement_04-send_joint_speeds bin/102-High_level_movement_05-circle_example bin/102-High_level_movement_06-print_actuator bin/102-High_level_movement_07-circle_position bin/102-High_level_movement_08-print_four_actuators bin/103-Gen3_uart_bridge_01-uart_bridge bin/103-Gen3_uart_bridge_02-test_circle bin/103-Gen3_uart_bridge_03-test_four_circle bin/103-Gen3_uart_bridge_04-test_four_sequential_arms_operation bin/103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2 bin/104-Gen3_gpio_bridge_01-gpio_bridge bin/105-Gen3_i2c_bridge_01-i2c_bridge bin/106-Gripper_command_01-gripper_command bin/107-Gripper_low_level_command_01-gripper_low_level_command bin/108-Gen3_torque_control_01-torque_control_cyclic bin/109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration bin/110-Waypoints_01-send_angular_wapoint_trajectory bin/110-Waypoints_02-send_cartesian_waypoint_trajectory bin/111-Kinematics_01-compute-kinematics bin/200-Actuator_low_level_control_01-move_to_initial_position bin/200-Actuator_low_level_control_02-actuator_low_level_velocity_control bin/200-Actuator_low_level_control_02-test1 bin/200-Actuator_low_level_control_03-test2 bin/500-Gen3_vision_configuration_01_vision_intrinsics bin/500-Gen3_vision_configuration_02_vision_extrinsics bin/500-Gen3_vision_configuration_03_vision_sensor_focus_action bin/500-Gen3_vision_configuration_04_vision_sensor_options
+build all: phony bin/000-Getting_started_01-api_creation bin/000-Getting_started_02-protobuf_object_manipulation bin/000-Getting_started_03-api_mechanism bin/000-Getting_started_04-error_management bin/000-Getting_started_05-notification bin/100-Overview_01-devices_routing bin/100-Overview_02-protection_zones_configuration bin/102-High_level_movement_01-move_angular_and_cartesian bin/102-High_level_movement_02-sequence bin/102-High_level_movement_03-twist_command bin/102-High_level_movement_04-send_joint_speeds bin/102-High_level_movement_05-circle_example bin/102-High_level_movement_06-print_actuator bin/102-High_level_movement_07-circle_position bin/102-High_level_movement_08-print_four_actuators bin/103-Gen3_uart_bridge_01-uart_bridge bin/103-Gen3_uart_bridge_02-test_circle bin/103-Gen3_uart_bridge_03-test_four_circle bin/103-Gen3_uart_bridge_04-test_four_sequential_arms_operation bin/103-Gen3_uart_bridge_05-test_four_sequential_arms_operation2 bin/104-Gen3_gpio_bridge_01-gpio_bridge bin/105-Gen3_i2c_bridge_01-i2c_bridge bin/106-Gripper_command_01-gripper_command bin/107-Gripper_low_level_command_01-gripper_low_level_command bin/108-Gen3_torque_control_01-torque_control_cyclic bin/109-Gen3_ethernet_bridge_01-ethernet_bridge_configuration bin/110-Waypoints_01-send_angular_wapoint_trajectory bin/110-Waypoints_02-send_cartesian_waypoint_trajectory bin/111-Kinematics_01-compute-kinematics bin/200-Actuator_low_level_control_01-move_to_initial_position bin/200-Actuator_low_level_control_02-actuator_low_level_velocity_control bin/200-Actuator_low_level_control_02-test1 bin/200-Actuator_low_level_control_03-single-arm-velocity_control bin/200-Actuator_low_level_control_03-test2 bin/500-Gen3_vision_configuration_01_vision_intrinsics bin/500-Gen3_vision_configuration_02_vision_extrinsics bin/500-Gen3_vision_configuration_03_vision_sensor_focus_action bin/500-Gen3_vision_configuration_04_vision_sensor_options
 
 # =============================================================================
 # Built-in targets

@@ -31,8 +31,8 @@ Packages
 
 Installing (downloading, building) binaries...
 kortex_api_cpp/2.6.0-r.3@kortex/stable: Already installed!
-conanfile.txt: Generator txt created conanbuildinfo.txt
 conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generator txt created conanbuildinfo.txt
 conanfile.txt: Aggregating env generators
 conanfile.txt: Generated conaninfo.txt
 conanfile.txt: Generated graphinfo
@@ -76,6 +76,7 @@ creating TARGET_EXE_NAME: '111-Kinematics_01-compute-kinematics'
 creating TARGET_EXE_NAME: '200-Actuator_low_level_control_01-move_to_initial_position'
 creating TARGET_EXE_NAME: '200-Actuator_low_level_control_02-actuator_low_level_velocity_control'
 creating TARGET_EXE_NAME: '200-Actuator_low_level_control_02-test1'
+creating TARGET_EXE_NAME: '200-Actuator_low_level_control_03-single-arm-velocity_control'
 creating TARGET_EXE_NAME: '200-Actuator_low_level_control_03-test2'
 creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_01_vision_intrinsics'
 creating TARGET_EXE_NAME: '500-Gen3_vision_configuration_02_vision_extrinsics'
